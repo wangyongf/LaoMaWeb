@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="LaoMaWeb" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="LaoMaWeb">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/LaoMaWeb" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

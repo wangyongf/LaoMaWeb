@@ -36,7 +36,6 @@ label {
     padding: 0;
 }
 
-
 /*----start-container---*/
 
 .banner {
@@ -44,7 +43,6 @@ label {
     background-size: 100%;
     min-height: 340px;
 }
-
 
 /*----start-header----*/
 
@@ -135,7 +133,6 @@ label {
     font-size: 1em;
     text-decoration: none;
 }
-
 
 /*--banner-ends*/
 
@@ -271,7 +268,6 @@ a.bttn:hover {
     color: #FFC600;
 }
 
-
 /*----*/
 
 .pages {
@@ -295,7 +291,6 @@ a.bttn:hover {
 .pages ul li a:hover {
     color: #E82806;
 }
-
 
 /*----*/
 
@@ -383,7 +378,6 @@ a.bttn:hover {
 .archives li a:hover {
     color: #EB5A41;
 }
-
 
 /*----*/
 
@@ -491,27 +485,26 @@ a.bttn:hover {
     -o-transition: 0.5s all;
 }
 
-.copywrite {
+.copyright {
     background: #65443A;
-    text-align: left;
+    text-align: center;
     padding: 1em 0;
 }
 
-.copywrite p {
-    color: #8A685F;
+.copyright p {
+    color: #ffffff;
     font-size: 1em;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.copywrite p a {
+.copyright p a {
     color: #FFC600;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.copywrite p a:hover {
+.copyright p a:hover {
     color: #DF553E;
 }
-
 
 /*--contact--*/
 
@@ -649,7 +642,6 @@ a.bttn:hover {
     font-size: 0.9em;
     display: block;
 }
-
 
 /*--terms--*/
 
@@ -905,79 +897,97 @@ img.single-pic {
     width: 100%;
 }
 
-
 /*--responsive--*/
 
 @media (max-width: 1024px) {
     .top-menu ul li a {
         margin: 2em;
     }
+
     .banner-head h1 {
         font-size: 2.2em;
     }
+
     .banner-head h2 {
         font-size: 1.7em;
     }
+
     .banner-links ul li a {
         padding: 1em 1.5em;
         font-size: 0.9em;
     }
+
     .content-grid-head h3 {
         font-size: 1em;
     }
+
     .content-main {
         padding: 16px;
     }
+
     .content-grid-head h4 {
         font-size: 0.83em;
     }
+
     .content-grid-info h3,
     .content-sec-info h3 {
         font-size: 1.3em;
         margin-bottom: 0.4em;
     }
+
     .content-grid-info p,
     .content-sec-info p {
         width: 95%;
         font-size: 0.9em;
     }
+
     a.bttn {
         padding: 0.55em 0.9em;
     }
+
     .content-grid-sec {
         margin-top: 2em;
     }
+
     .content-sec-info h4 {
         margin-bottom: 1em
     }
+
     .fotter-info p {
         width: 93%;
     }
+
     .search {
         padding: 1.5em;
     }
+
     .search input[type="text"] {
         width: 81%;
     }
+
     .categories h3,
     .archives h3 {
         font-size: 1.2em;
         margin-bottom: 1em;
     }
+
     .contact-head h3,
     .terms h3 {
         font-size: 1.6em;
         margin-bottom: 1em;
     }
+
     .contact form input[type="text"],
     .contact-right textarea {
         padding: 8px 12px;
         font-size: 1em;
         margin-bottom: 1em;
     }
+
     .contact-right textarea {
         height: 153px;
     }
+
     .contact form input[type="submit"] {
         font-size: 1em;
         padding: 0.5em 2em;
@@ -989,46 +999,58 @@ img.single-pic {
         width: 18%;
         margin-top: 0.9em;
     }
+
     .logo img {
         width: 100%;
     }
+
     .header {
         height: 64px;
     }
+
     .top-menu ul li a {
         margin: 1.5em;
     }
+
     .banner-head {
         margin: 3.46em 0;
     }
+
     .banner-head h1 {
         font-size: 2em;
         margin-bottom: 5px;
     }
+
     .banner {
         min-height: 294px;
     }
+
     .content-grid-info img,
     .content-sec-info img {
         width: 100%;
         height: 350px;
     }
+
     .pages {
         padding: 0.6em;
         margin-top: 1em;
     }
+
     .search input[type="submit"] {
         padding: 0px 0 16px 0;
         width: 43px;
         height: 44px;
     }
+
     .search input[type="text"] {
         width: 93%;
     }
+
     .categories,
     .archives {
         padding: 1.3em 18px 1em 18px;
     }
+
     .fotter-info h3,
     .fotter-list h3,
     .fotter-media h3 {
@@ -1036,49 +1058,61 @@ img.single-pic {
         padding-top: 1.6em;
         letter-spacing: 1px;
     }
+
     .fotter-info {
         padding-bottom: 2em;
         width: 33%;
         float: left;
     }
+
     .fotter-list,
     .fotter-media {
         width: 33%;
         float: left;
     }
+
     .fotter-info p {
         overflow: hidden;
         height: 63px;
     }
+
     .fotter-list ul li {
         width: 97%;
     }
+
     .fotter-list {
         padding-bottom: 4.3em;
     }
+
     .contact-left,
     .contact-right {
         width: 50%;
         float: left;
     }
+
     .locations {
         width: 50%;
         float: left;
     }
+
     img.single-pic {
         height: 350px;
     }
+
     .content-form form input[type="text"],
     .content-form form textarea {
         width: 100%;
     }
+
     .content-form form textarea {
         height: 150px;
     }
+
     .content-grid-single p {
         overflow: hidden;
         height: 135px;
     }
+
     .comment-info p {
         height: 68px;
     }
@@ -1088,116 +1122,149 @@ img.single-pic {
     .header {
         height: 58px;
     }
+
     .top-menu ul li a {
         margin: 1.3em;
     }
+
     .banner-head h1 {
         font-size: 1.7em;
         margin-bottom: 3px;
     }
+
     .banner-head h2 {
         font-size: 1.5em;
     }
+
     .banner-head {
         margin: 2.57em 0;
     }
+
     .banner-links ul li a {
         padding: 0.85em 1.2em;
     }
+
     .banner {
         min-height: 244px;
     }
+
     .content-main {
         padding: 15px;
     }
+
     .content-sec-info h3 {
         font-size: 1.1em;
     }
+
     .content-grid-head h3 {
         font-size: 0.95em;
     }
+
     .content-grid-info p,
     .content-sec-info p {
         font-size: 0.85em;
         line-height: 1.3em;
     }
+
     .content-grid-info img,
     .content-sec-info img {
         height: 285px;
     }
+
     a.bttn {
         padding: 0.55em 1em;
         font-size: 0.9em;
     }
+
     .content-grid-sec {
         margin-top: 1.5em;
     }
+
     .pages ul li a {
         font-size: 0.85em;
     }
+
     .search input[type="text"] {
         width: 90%;
     }
+
     .categories li a,
     .archives li a {
         font-size: 0.9em;
     }
+
     .categories h3,
     .archives h3 {
         font-size: 1.1em;
         margin-bottom: 0.6em;
     }
+
     .fotter-info p {
         font-size: 0.85em;
     }
+
     .fotter-list ul li a {
         font-size: 0.85em;
     }
+
     .fotter-list {
         padding-bottom: 2em;
     }
+
     .contact-left,
     .contact-right {
         width: 100%;
         float: left;
         padding: 0;
     }
+
     .address-info p {
         font-size: 0.9em;
     }
+
     .address {
         padding-bottom: 0;
     }
+
     .locations ul {
         margin-bottom: 1em;
     }
+
     .contact-head h3,
     .terms h3 {
         font-size: 1.4em;
         margin-bottom: 0.5em;
     }
+
     .terms p {
         font-size: 0.9em;
     }
+
     .term h4 {
         font-size: 1em;
     }
+
     .term {
         margin-bottom: 1em;
     }
+
     .terms input[type="button"] {
         font-size: 0.9em;
     }
+
     .term li {
         font-size: 0.9em;
         padding: 3px 2em;
     }
+
     .content-grid-single h3 {
         font-size: 1.3em;
     }
+
     img.single-pic {
         height: 285px;
     }
+
     .content-grid-single span {
         line-height: 1.3em;
         font-size: 0.9em;
@@ -1208,47 +1275,60 @@ img.single-pic {
     .header {
         height: 48px;
     }
+
     .logo {
         width: 21%;
         margin-top: 0.8em;
     }
+
     .top-menu ul li a {
         margin: 1.1em;
         font-size: 0.83em;
     }
+
     .banner-head {
         margin: 1.69em 0;
     }
+
     .banner-head h1 {
         font-size: 1.2em;
         margin-bottom: 2px;
     }
+
     .banner-head h2 {
         font-size: 1em;
     }
+
     .banner-links ul li a {
         padding: 0.8em 1em;
         font-size: 0.8em;
     }
+
     .banner {
         min-height: 180px;
     }
+
     .content-grid-head {
         padding: 0.5em 1em;
     }
+
     .content-main {
         padding: 13px;
     }
+
     .content-grid-head h3 {
         font-size: 0.9em;
     }
+
     .content-grid-head h4 {
         font-size: 0.78em;
     }
+
     .content-grid-info h3,
     .content-sec-info h3 {
         font-size: 1.1em;
     }
+
     .content-grid-info p,
     .content-sec-info p {
         font-size: 0.82em;
@@ -1256,36 +1336,45 @@ img.single-pic {
         height: 37px;
         margin-bottom: 0.5em;
     }
+
     .content-grid-info img,
     .content-sec-info img {
         height: 220px;
     }
+
     a.bttn {
         padding: 0.5em 1em;
         font-size: 0.8em;
     }
+
     .pages {
         padding: 0.4em;
     }
+
     .search h3 {
         font-size: 1em;
     }
+
     .categories h3,
     .archives h3 {
         font-size: 1.05em;
         margin-bottom: 0.6em;
     }
+
     .categories li a,
     .archives li a {
         font-size: 0.85em;
     }
+
     .categories,
     .archives {
         padding: 1.3em 18px 0.5em 18px;
     }
+
     .search input[type="text"] {
         width: 87%;
     }
+
     .fotter-info,
     .fotter-list,
     .fotter-media {
@@ -1293,106 +1382,137 @@ img.single-pic {
         border-right: none;
         padding: 0;
     }
+
     .fotter-info {
         padding-bottom: 0em;
     }
+
     .fotter-info p {
         height: 41px;
     }
+
     .social-icons {
         margin: 1em 0 1.5em 0;
     }
-    .copywrite p {
+
+    .copyright p {
         font-size: 0.85em;
     }
+
     .contact form input[type="text"],
     .contact-right textarea {
         font-size: 0.9em;
     }
+
     .contact,
     .terms {
         padding: 1.5em 0;
     }
+
     .contact-right textarea {
         height: 130px;
     }
+
     .contact form input[type="submit"] {
         font-size: 0.85em;
     }
+
     .locations {
         margin-top: 2em;
     }
+
     .address h3 {
         font-size: 1.4em;
     }
+
     .locations {
         width: 100%;
     }
+
     .locations ul {
         margin-bottom: 2em;
     }
+
     .locations:nth-child(2) {
         display: none;
     }
+
     .address {
         padding: 1em 0 0 0;
     }
+
     .locations ul:nth-child(2) {
         margin-bottom: 0;
     }
+
     .terms p,
     .term li {
         font-size: 0.85em;
     }
+
     .term:nth-child(7) {
         display: none;
     }
+
     img.single-pic {
         height: 220px;
     }
+
     .content-grid-single h3 {
         font-size: 1.3em;
     }
+
     .content-form {
         margin-top: 1em;
     }
+
     .content-grid-single h3 {
         font-size: 1.15em;
     }
+
     .content-form form input[type="text"],
     .content-form form textarea {
         font-size: 0.9em;
         padding: 8px 11px;
     }
+
     .content-form form textarea {
         height: 121px;
     }
+
     .comment-info h4 {
         font-size: 0.9em;
     }
+
     .comment-info p {
         height: 59px;
         font-size: 0.85em;
     }
+
     .comment-grid {
         margin-bottom: 2em;
     }
+
     .content-grid-single span {
         font-size: 0.8em;
     }
+
     .content-grid-single p {
         height: 122px;
         line-height: 1.5em;
         font-size: 0.85em;
     }
+
     .comment-info p {
         overflow: hidden;
         height: 60px;
     }
+
     .comment-info a {
         padding: 0.4em 1.3em;
         font-size: 0.8em;
     }
+
     .comments {
         margin-top: 1.5em;
     }
@@ -1403,55 +1523,70 @@ img.single-pic {
         margin: 0.9em 0.8em;
         font-size: 0.8em;
     }
+
     .header {
         height: 41px;
     }
+
     .logo {
         width: 25%;
         margin-top: 0.5em;
     }
+
     .banner-head h1 {
         font-size: 1em;
         margin-bottom: 1px;
     }
+
     .banner-head {
         margin: 1.05em 0;
     }
+
     .banner-links ul li:nth-child(2) {
         display: none;
     }
+
     .banner {
         min-height: 120px;
     }
+
     .banner-links ul li a {
         padding: 0.5em 0.6em;
         font-size: 0.7em;
     }
+
     .banner-head h2 {
         display: none;
     }
+
     .content-main {
         padding: 10px;
     }
+
     .content-grid-head {
         padding: 0.5em;
     }
+
     .content-grid-head h3 {
         font-size: 0.8em;
     }
+
     .content-grid-head h4 {
         font-size: 0.8em;
         float: left;
         margin-top: 5px;
     }
+
     .content-grid-info {
         padding: 0.7em 12px;
     }
+
     .content-grid-info h3,
     .content-sec-info h3 {
         font-size: 1em;
         margin-bottom: 5px;
     }
+
     .content-grid-info p,
     .content-sec-info p {
         font-size: 0.8em;
@@ -1459,198 +1594,250 @@ img.single-pic {
         margin-bottom: 5px;
         line-height: 1.2em;
     }
+
     .content-grid-info img,
     .content-sec-info img {
         height: 130px;
     }
+
     .content-grid-sec {
         margin-top: 1em;
     }
+
     .content-sec-info h4 {
         margin-bottom: 0.65em;
         font-size: 0.8em;
     }
+
     a.bttn {
         padding: 0.4em 0.58em;
         font-size: 0.75em;
     }
+
     .content-grid-sec {
         padding: 0.5em 12px 0 12px;
     }
+
     .pages ul li a {
         margin: 0 4px;
         font-size: 0.8em;
     }
+
     .search input[type="text"] {
         width: 79%;
         padding: 5px 8px;
     }
+
     .search input[type="submit"] {
         padding: 0px 0 10px 0;
         width: 37px;
         height: 32px;
         background: url(../images/splits.png) no-repeat -204px -11px;
     }
+
     .search {
         padding: 1em;
     }
+
     .search h3 {
         font-size: 0.95em;
     }
+
     .categories,
     .archives {
         padding: 1em 15px 0.5em 15px;
     }
+
     .categories h3,
     .archives h3 {
         font-size: 1em;
         margin-bottom: 0.6em;
     }
+
     .categories li a,
     .archives li a {
         font-size: 0.8em;
         padding: 5px 0;
     }
+
     .fotter-info h3,
     .fotter-list h3,
     .fotter-media h3 {
         font-size: 1em;
         padding-top: 1.2em;
     }
+
     .fotter-info p {
         height: 34px;
         font-size: 0.8em;
         line-height: 1.3em;
         margin-top: 0.5em;
     }
+
     .fotter-list ul li:nth-child(1) {
         margin-top: 0px;
     }
+
     .fotter-list ul li a {
         font-size: 0.8em;
         padding: 5px 0;
     }
-    .copywrite {
+
+    .copyright {
         padding: 0.5em 0;
     }
+
     .contact,
     .terms {
         padding: 1em 0;
     }
+
     .contact-head h3,
     .terms h3 {
         font-size: 1.2em;
     }
+
     .contact form input[type="text"],
     .contact-right textarea {
         font-size: 0.85em;
         padding: 6px 7px;
     }
+
     .contact-right textarea {
         height: 110px;
     }
+
     .contact form input[type="submit"] {
         font-size: 0.8em;
         padding: 0.4em 1.5em;
     }
+
     .contact-head {
         padding-bottom: 1em;
     }
+
     .address h3 {
         font-size: 1.2em;
     }
+
     .locations {
         margin-top: 1.5em;
     }
+
     .address-info h4 {
         margin-bottom: 5px;
         font-size: 0.9em;
     }
+
     .address-info p {
         font-size: 0.8em;
     }
+
     .locations ul {
         margin-bottom: 1.3em;
     }
+
     .terms p,
     .term li {
         font-size: 0.8em;
     }
+
     .terms-sec-head p {
         overflow: hidden;
         height: 38px;
     }
+
     .term {
         padding: 0.5em 8px;
     }
+
     .term h4 {
         font-size: 0.85em;
     }
+
     .terms-sec-head {
         padding-bottom: 0.5em;
     }
+
     .terms p {
         overflow: hidden;
         height: 42px;
     }
+
     .terms input[type="checkbox"] {
         float: left;
         width: 5%;
     }
+
     p.agree {
         float: left;
         width: 92%;
     }
+
     .terms input[type="button"] {
         font-size: 0.8em;
         padding: 0.4em 1.5em;
     }
+
     img.single-pic {
         height: 130px;
     }
+
     .content-grid-single h3 {
         font-size: 1em;
     }
+
     .content-grid-single span {
         overflow: hidden;
         height: 31px;
     }
+
     .content-grid-single p {
         height: 61px;
         font-size: 0.8em;
     }
+
     .content-form form input[type="text"],
     .content-form form textarea {
         font-size: 0.85em;
         padding: 6px 11px;
     }
+
     .content-form form textarea {
         height: 106px;
     }
+
     .content-form form input[type="submit"] {
         padding: 0.3em 1.3em;
         font-size: 0.8em;
     }
+
     .content-grid-single {
         padding: 0.7em 12px;
     }
+
     .comment-info {
         width: 82%;
     }
+
     .comments h3 {
         margin-bottom: 10px;
     }
+
     .comment-info h4 {
         font-size: 0.8em;
         margin-bottom: 5px;
     }
+
     .comment-info h5 {
         font-size: 0.75em;
     }
+
     .comment-info p {
         height: 38px;
         font-size: 0.8em;
     }
+
     .comment-info a {
         padding: 0.3em 1em;
         font-size: 0.8em;
