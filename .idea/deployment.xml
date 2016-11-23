@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="LaoMaWeb" notifyRemoteChanges="true">
+  <component name="PublishConfigData" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="LaoMaWeb" uploadOnCheckin="173eb0c0-5b23-467f-989d-b1821cda92ef" notifyRemoteChanges="true">
     <serverData>
       <paths name="LaoMaWeb">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="LaoMaWeb" />
   </component>
 </project>
